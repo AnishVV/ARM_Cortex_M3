@@ -1,0 +1,27 @@
+Dependencies for Project 'PeriodicSysTickInts', Target 'PeriodicSysTickInts': (DO NOT MODIFY !)
+F (.\Startup.s)(0x5157DB52)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary --list "Startup.lst" --xref -o ".\Hex&Bin\Startup.o" --depend ".\Hex&Bin\Startup.d")
+F (.\DAC.c)(0x515D45B8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o ".\Hex&Bin\dac.o" --omf_browse ".\Hex&Bin\dac.crf" --depend ".\Hex&Bin\dac.d")
+F (.\PLL.c)(0x5157DB3E)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o ".\Hex&Bin\pll.o" --omf_browse ".\Hex&Bin\pll.crf" --depend ".\Hex&Bin\pll.d")
+F (.\Sound.c)(0x5179FAD3)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o ".\Hex&Bin\sound.o" --omf_browse ".\Hex&Bin\sound.crf" --depend ".\Hex&Bin\sound.d")
+I (DAC.h)(0x515D45EB)
+I (PLL.h)(0x5157DB44)
+I (..\inc\hw_types.h)(0x5106ACA2)
+I (..\driverlib\sysctl.h)(0x517791CF)
+I (..\inc\lm3s1968.h)(0x5106ACA3)
+F (.\Piano.c)(0x515D2479)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o ".\Hex&Bin\piano.o" --omf_browse ".\Hex&Bin\piano.crf" --depend ".\Hex&Bin\piano.d")
+I (..\inc\lm3s1968.h)(0x5106ACA3)
+F (.\Test.c)(0x515D2D56)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o ".\Hex&Bin\test.o" --omf_browse ".\Hex&Bin\test.crf" --depend ".\Hex&Bin\test.d")
+I (Sound.h)(0x515D45CA)
+I (..\inc/hw_types.h)(0x5106ACA2)
+I (..\driverlib/sysctl.h)(0x517791CF)
+I (Test.h)(0x515BC0F2)
+I (..\inc\lm3s1968.h)(0x5106ACA3)
+I (Piano.h)(0x515D45D8)
+F (.\Main.c)(0x51777A02)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o ".\Hex&Bin\main.o" --omf_browse ".\Hex&Bin\main.crf" --depend ".\Hex&Bin\main.d")
+I (..\inc/hw_types.h)(0x5106ACA2)
+I (..\driverlib/sysctl.h)(0x517791CF)
+I (Sound.h)(0x515D45CA)
+I (Piano.h)(0x515D45D8)
+I (Test.h)(0x515BC0F2)
+I (..\inc\lm3s1968.h)(0x5106ACA3)
+F (..\driverlib\rvmdk\driverlib.lib)(0x5106ACA2)()

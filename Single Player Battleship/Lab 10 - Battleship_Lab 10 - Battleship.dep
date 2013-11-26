@@ -1,0 +1,89 @@
+Dependencies for Project 'Lab 10 - Battleship', Target 'Lab 10 - Battleship': (DO NOT MODIFY !)
+F (.\Startup.s)(0x51816344)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\PLL.c)(0x51816343)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "pll.o" --omf_browse "pll.crf" --depend "pll.d")
+F (.\Output.c)(0x51816343)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "output.o" --omf_browse "output.crf" --depend "output.d")
+I (C:\Keil\ARM\RV31\Inc\stdio.h)(0x4F58FA5C)
+I (rit128x96x4.h)(0x51816344)
+I (Output.h)(0x51816343)
+F (.\rit128x96x4.c)(0x51816344)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "rit128x96x4.o" --omf_browse "rit128x96x4.crf" --depend "rit128x96x4.d")
+I (..\inc/hw_ssi.h)(0x5106ACA2)
+I (..\inc/hw_memmap.h)(0x5106ACA2)
+I (..\inc/hw_sysctl.h)(0x5106ACA2)
+I (..\inc/hw_types.h)(0x5106ACA2)
+I (..\driverlib/debug.h)(0x517791CF)
+I (..\driverlib/gpio.h)(0x517791CF)
+I (..\driverlib/pin_map.h)(0x517791CF)
+I (..\driverlib/ssi.h)(0x517791CF)
+I (..\driverlib/sysctl.h)(0x517791CF)
+I (rit128x96x4.h)(0x51816344)
+F (.\logo.c)(0x51816343)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "logo.o" --omf_browse "logo.crf" --depend "logo.d")
+I (rit128x96x4.h)(0x51816344)
+F (.\Battleship_Main.c)(0x51826D0D)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "battleship_main.o" --omf_browse "battleship_main.crf" --depend "battleship_main.d")
+I (..\inc\hw_types.h)(0x5106ACA2)
+I (..\driverlib\sysctl.h)(0x517791CF)
+I (..\inc\lm3s1968.h)(0x5106ACA3)
+I (PLL.h)(0x51816344)
+I (Art/Art.h)(0x51826012)
+I (ADC.h)(0x51816341)
+I (PortGInts.h)(0x51816344)
+I (Grid.h)(0x51816342)
+I (Display.h)(0x51816341)
+I (..\driverlib\UART.h)(0x517791CF)
+I (SysTickInts.h)(0x51816344)
+I (Utils.h)(0x51816345)
+I (C:\Keil\ARM\RV31\Inc\stdio.h)(0x4F58FA5C)
+I (GameSound.h)(0x51825789)
+F (.\GameSound.h)(0x51825789)()
+F (.\DAC.h)(0x51816341)()
+F (.\DAC.c)(0x51816FB9)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "dac.o" --omf_browse "dac.crf" --depend "dac.d")
+I (..\inc\lm3s1968.h)(0x5106ACA3)
+F (.\Sounds\Sounds.h)(0x51816347)()
+F (.\Display.c)(0x518260A0)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "display.o" --omf_browse "display.crf" --depend "display.d")
+I (Display.h)(0x51816341)
+I (Grid.h)(0x51816342)
+I (Art/Art.h)(0x51826012)
+I (rit128x96x4.h)(0x51816344)
+I (Output.h)(0x51816343)
+I (logo.h)(0x51816343)
+I (Utils.h)(0x51816345)
+I (C:\Keil\ARM\RV31\Inc\stdio.h)(0x4F58FA5C)
+I (GameSound.h)(0x51825789)
+F (.\Grid.c)(0x518278C0)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "grid.o" --omf_browse "grid.crf" --depend "grid.d")
+I (Grid.h)(0x51816342)
+I (Utils.h)(0x51816345)
+I (..\inc\lm3s1968.h)(0x5106ACA3)
+I (Display.h)(0x51816341)
+I (C:\Keil\ARM\RV31\Inc\stdio.h)(0x4F58FA5C)
+I (C:\Keil\ARM\RV31\Inc\stdlib.h)(0x4F58FA5C)
+F (.\PortGInts.c)(0x51826E80)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "portgints.o" --omf_browse "portgints.crf" --depend "portgints.d")
+I (..\inc\lm3s1968.h)(0x5106ACA3)
+I (Output.h)(0x51816343)
+I (Grid.h)(0x51816342)
+I (Display.h)(0x51816341)
+I (Utils.h)(0x51816345)
+I (C:\Keil\ARM\RV31\Inc\stdio.h)(0x4F58FA5C)
+F (.\Utils.c)(0x51816345)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "utils.o" --omf_browse "utils.crf" --depend "utils.d")
+F (.\ADC.c)(0x51816340)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "adc.o" --omf_browse "adc.crf" --depend "adc.d")
+I (..\inc\lm3s1968.h)(0x5106ACA3)
+F (.\ADC.h)(0x51816341)()
+F (.\GameSound.c)(0x51827467)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "gamesound.o" --omf_browse "gamesound.crf" --depend "gamesound.d")
+I (DAC.h)(0x51816341)
+I (PLL.h)(0x51816344)
+I (C:\Keil\ARM\RV31\Inc\string.h)(0x4F58FA5C)
+I (..\inc\hw_types.h)(0x5106ACA2)
+I (..\driverlib\sysctl.h)(0x517791CF)
+I (..\inc\lm3s1968.h)(0x5106ACA3)
+I (C:\Keil\ARM\RV31\Inc\math.h)(0x4F58FA5A)
+I (Sounds.h)(0x51816344)
+I (C:\Keil\ARM\RV31\Inc\stdio.h)(0x4F58FA5C)
+I (C:\Keil\ARM\RV31\Inc\stdlib.h)(0x4F58FA5C)
+I (GameSound.h)(0x51825789)
+F (..\driverlib\rvmdk\driverlib.lib)(0x5106ACA2)()
+F (.\Art\BattleshipCover.c)(0x51816345)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "battleshipcover.o" --omf_browse "battleshipcover.crf" --depend "battleshipcover.d")
+F (.\Art\Battleships.c)(0x51816345)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "battleships.o" --omf_browse "battleships.crf" --depend "battleships.d")
+F (.\Art\GridTiles.c)(0x51817E52)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "gridtiles.o" --omf_browse "gridtiles.crf" --depend "gridtiles.d")
+F (.\Art\Miss.c)(0x51816345)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "miss.o" --omf_browse "miss.crf" --depend "miss.d")
+F (.\Art\Menu.c)(0x51816345)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "menu.o" --omf_browse "menu.crf" --depend "menu.d")
+F (.\Art\Hit.c)(0x51817F64)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "hit.o" --omf_browse "hit.crf" --depend "hit.d")
+F (.\Art\Lose.c)(0x51825E7A)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "lose.o" --omf_browse "lose.crf" --depend "lose.d")
+F (.\Art\Win.c)(0x51825FC2)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I.. -I..\..\.. -I..\inc -I..\driverlib -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "win.o" --omf_browse "win.crf" --depend "win.d")

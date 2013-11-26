@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "startup.o" "pll.o" "output.o" "rit128x96x4.o" "logo.o" "battleship_main.o" "dac.o" "display.o" "grid.o" "portgints.o" "utils.o" "adc.o" "gamesound.o" "C:\Users\Chocalatesauce\Documents\EE 319k\driverlib\rvmdk\driverlib.lib" "battleshipcover.o" "battleships.o" "gridtiles.o" "miss.o" "menu.o" "hit.o" "lose.o" "win.o" 
+--library_type=microlib --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lab 10 - Battleship.map" -o "Lab 10 - Battleship.axf"

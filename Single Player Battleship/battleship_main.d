@@ -1,0 +1,15 @@
+battleship_main.o: Battleship_Main.c
+battleship_main.o: ..\inc\hw_types.h
+battleship_main.o: ..\driverlib\sysctl.h
+battleship_main.o: ..\inc\lm3s1968.h
+battleship_main.o: PLL.h
+battleship_main.o: Art/Art.h
+battleship_main.o: ADC.h
+battleship_main.o: PortGInts.h
+battleship_main.o: Grid.h
+battleship_main.o: Display.h
+battleship_main.o: ..\driverlib\UART.h
+battleship_main.o: SysTickInts.h
+battleship_main.o: Utils.h
+battleship_main.o: C:\Keil\ARM\RV31\Inc\stdio.h
+battleship_main.o: GameSound.h

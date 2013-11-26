@@ -1,0 +1,10 @@
+display.o: Display.c
+display.o: Display.h
+display.o: Grid.h
+display.o: Art/Art.h
+display.o: rit128x96x4.h
+display.o: Output.h
+display.o: logo.h
+display.o: Utils.h
+display.o: C:\Keil\ARM\RV31\Inc\stdio.h
+display.o: GameSound.h

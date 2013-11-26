@@ -1,0 +1,12 @@
+gamesound.o: GameSound.c
+gamesound.o: DAC.h
+gamesound.o: PLL.h
+gamesound.o: C:\Keil\ARM\RV31\Inc\string.h
+gamesound.o: ..\inc\hw_types.h
+gamesound.o: ..\driverlib\sysctl.h
+gamesound.o: ..\inc\lm3s1968.h
+gamesound.o: C:\Keil\ARM\RV31\Inc\math.h
+gamesound.o: Sounds.h
+gamesound.o: C:\Keil\ARM\RV31\Inc\stdio.h
+gamesound.o: C:\Keil\ARM\RV31\Inc\stdlib.h
+gamesound.o: GameSound.h
